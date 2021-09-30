@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+#root{
+  
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.55);
+  padding: 1em;
+}
+
+.bg-light{
+  padding: 1em;
+  background-color: rgb(148, 20, 46);
+  
+}
+
+.cajones{
+  padding: 1em;
+  background-color: rgb(148, 20, 46);
+
+}
+
+.central img{
+  width: 100%;
+  height: auto;
+}

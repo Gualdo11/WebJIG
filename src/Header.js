@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { HeaderWrapper } from "./styles/Header";
 import Navbar from "./Navbar";
 import MenuButton from "./MenuButton";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -12,7 +13,6 @@ function Header() {
 
   return (
     <HeaderWrapper>
-      <h2>Logo</h2>
       <Navbar open={open} />
       <MenuButton open={open} handleClick={handleClick} />
     </HeaderWrapper>
