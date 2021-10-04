@@ -55,10 +55,32 @@
 .cajones{
   padding: 1em;
   background-color: rgb(148, 20, 46);
-
 }
 
 .central img{
   width: 100%;
   height: auto;
+}
+@media (max-width: 970px) {
+  .nombre {
+    display: none;
+  }
+}
+
+.nombre{
+  color: rgb(250 2 29);
+  padding: 0.5em;
+  font-weight: 470;
+}
+
+.footer{
+  background-color: rgb(211, 211, 211);
+  padding: 1.5em;
+  font-weight: 470;
+}
+
+.iconos{
+  color: rgb(250 2 29);
+  font-weight: 470;
+  font-size: 25px;
 }
