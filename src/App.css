@@ -37,10 +37,6 @@
   }
 }
 
-#root{
-  
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0,0,0,.55);
   padding: 1em;
@@ -79,8 +75,15 @@
   font-weight: 470;
 }
 
-.iconos{
+.l-f {
   color: rgb(250 2 29);
   font-weight: 470;
   font-size: 25px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.iconos a:hover{
+  color: rgb(39, 39, 39);
+
 }
